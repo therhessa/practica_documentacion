@@ -1,0 +1,147 @@
+/*************** BODY ****************/
+/* para que la pagina no se salga de nuestro ancho definido */
+*{
+    -moz-box-sizing: border-box ;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #F2F0DF;
+    font-family: Helvetica, Verdana, Arial;
+    font-size: 16px;
+	padding: 0;
+    margin: 0;
+}
+/*************** MENU ****************/
+#menu-container{
+    background-color: #222;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+
+}
+#menu-container #logo-menu{
+
+    padding-top:20px ;
+}
+#menu-container #logo-name{
+    color:#eee;
+    font-size: 13px;
+    padding-top:10px ;
+
+}
+#menu-container #logo-desc{
+    color:#bbb;
+    font-size: 13px;
+    padding-top:10px ;
+    padding-bottom:10px ;
+
+}
+#menu-container #menu{
+    border-top: solid 1px #888;
+    border-bottom: solid 1px #444;
+    margin:0;
+    padding: 40px 0 40px 0;
+    text-align: center;
+
+}
+#menu-container #menu li{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+
+}
+#menu-container #menu li a{
+	color:#FCB95B;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition:all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#menu-container #menu li a:hover{
+	color: #F5DFCE;
+
+}
+
+/********** MAIN CONTAINER ***********/
+#main-container{
+    display:inline-block;
+    margin-left: 200px;
+    width: 2600px;
+}
+#main-container .seccion{
+    border-right: dotted 1px #ccc ;
+    display: inline-block;
+    height: 600px;
+    padding: 10px;
+    vertical-align: top;
+    width: 700px;
+}
+#main-container .seccion h2{
+    border-bottom: dotted 1px #ccc;
+    padding: 20px 20px;
+}
+#seccion-inicio{
+    text-align: center;
+    width: 450px !important;
+    padding-left: 25px !important;
+    padding-right:25px !important;
+    padding-top:130px  !important;
+    overflow: auto;
+    box-sizing: border-box;
+
+
+}
+#seccion-inicio #incio-desc{
+    color:#444;
+    font-style:italic;
+    font-size: 20px;
+}
+.separador{
+    background-image: url("../img/separador.png") ;
+    background-position: center;
+    height: 30px;
+}
+
+/*****************************************************
+                    Acerca de
+/*****************************************************/
+
+#seccion-acerca #foto-autor{
+    text-align: center;
+
+}
+#seccion-acerca #foto-autor img{
+    border-radius: 100%;
+}
+#seccion-acerca #foto-autor #descripcion-inicial{
+    font-family: italic;
+    font-weight: bolder;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
