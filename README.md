@@ -15,7 +15,8 @@ Se ha utilizado la libreria jquery, para darle interactividad y también para re
 ## Estructura del curriculum
 Consta de un menú vertical posicionado a la derecha, con distintas secciones para navegar.
 En primer lugar tenemos, tenemos el inicio, donde tenemos una presentación del perfil.
-En la 
-
+En la siguiente sección,  nos encontramos con la formación, donde tenemos la información academica.
+A continuación tenemos otra sección, hobbies, donde se  muestran los distintos hobbies, en una lista.
+Por último nos encontamos con el fórmulario de contacto y los distintas redes sociales.
 
 
